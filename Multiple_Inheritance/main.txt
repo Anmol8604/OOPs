@@ -1,0 +1,12 @@
+Java doesn't support multiple inheritance.
+
+suppose there is a
+class A
+-> int d = 5;
+class B
+-> int d = 10;
+class Main extends A , B
+-> main.d = // which one to pick, that's why java does not support multiple inheritance.
+
+
+// We will achieve this thing using interfaces in java
